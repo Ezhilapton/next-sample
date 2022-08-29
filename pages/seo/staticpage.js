@@ -7,7 +7,7 @@ export default function StaticPage() {
                 <title>HTML Static Page</title>
                 <meta name="description" content="Generated HTML Static Page" />
                 <meta name="robots" content="all" />
-            </Head>
+            </Head>     
             <center><h1>View part of Static Page</h1></center>
         </div>
     )

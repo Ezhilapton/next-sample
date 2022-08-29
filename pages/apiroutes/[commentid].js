@@ -14,15 +14,15 @@ export default commentData
 export async function getStaticPaths() {
     return {
         paths: [
-            {
-                params: { commentid: "1" },
-            },
-            {
-                params: { commentid: "2" },
-            },
+            // {
+            //     params: { commentid: "1" },
+            // },
+            // {
+            //     params: { commentid: "2" },
+            // },
         ],
-        // fallback: "blocking",
-        fallback: true,
+        fallback: "blocking",
+        // fallback: true,
         // fallback: false,
     };
 }
